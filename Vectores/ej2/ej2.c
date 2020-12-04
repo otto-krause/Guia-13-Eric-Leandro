@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
-
-int main(){
+//Falta función.
+int main()
+{
 int j=0;
 int i;
 int a[5];
 int mayor= 0;
 //Ingrese numeros
-    for(i=0;i<6;i++)
+    for(i=0;i<5;i++)// de 0 a 5 son 6 valores...
     {
         printf ("Ingrese un numero: ");
         scanf("%i",&a[i]);
@@ -15,7 +16,7 @@ int mayor= 0;
         j=j+a[i];
     }
 //para sacar el mayor
-   for ( i =0; i <6; i++)
+   for ( i =0; i <5; i++)//idem cometario anterior
    {
        if (a[i]>mayor)
        {
